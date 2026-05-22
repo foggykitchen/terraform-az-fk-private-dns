@@ -1,5 +1,5 @@
 module "vnet" {
-  source = "github.com/mlinxfeld/terraform-az-fk-vnet"
+  source = "github.com/foggykitchen/terraform-az-fk-vnet"
 
   name                = var.vnet_name
   location            = azurerm_resource_group.fk_rg.location
