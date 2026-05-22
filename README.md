@@ -69,7 +69,7 @@ terraform-az-fk-private-dns/
 
 ```hcl
 module "private_dns" {
-  source = "git::https://github.com/foggykitchen/terraform-az-fk-private-dns.git?ref=v1.0.0"
+  source = "git::https://github.com/mlinxfeld/terraform-az-fk-private-dns.git?ref=v1.0.0"
 
   resource_group_name    = "fk-rg"
   private_dns_zone_names = ["privatelink.blob.core.windows.net"]
@@ -111,11 +111,11 @@ module "private_dns" {
 
 ## 🧩 Related Modules & Training
 
-- [terraform-az-fk-private-endpoint](https://github.com/foggykitchen/terraform-az-fk-private-endpoint)  
+- [terraform-az-fk-private-endpoint](https://github.com/mlinxfeld/terraform-az-fk-private-endpoint)  
 - [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)  
-- [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)  
-- [terraform-az-fk-compute](https://github.com/foggykitchen/terraform-az-fk-compute)  
-- [terraform-az-fk-aks](https://github.com/foggykitchen/terraform-az-fk-aks)  
+- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)  
+- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)  
+- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)  
 
 ---
 
