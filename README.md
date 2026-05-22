@@ -113,7 +113,7 @@ module "private_dns" {
 
 - [terraform-az-fk-private-endpoint](https://github.com/mlinxfeld/terraform-az-fk-private-endpoint)  
 - [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)  
-- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)  
+- [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)  
 - [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)  
 - [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)  
 
